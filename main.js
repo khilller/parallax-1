@@ -100,7 +100,7 @@ function drawCanvas() {
 }
 
 function getOffset(layer) {
-    var touch_multiplier = 0.1;
+    var touch_multiplier = 0.2;
     var touch_offset_x = pointer.x * layer.z_index * touch_multiplier;
     var touch_offset_y = pointer.y * layer.z_index * touch_multiplier;
 
